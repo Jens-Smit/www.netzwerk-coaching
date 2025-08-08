@@ -1,0 +1,217 @@
+.skilltree {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.skilltree ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.skilltree ul li {
+  margin: 1rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--color-footer);
+  
+  display: flex;
+  align-items: center;
+
+}
+.skilltree_backend div {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+}
+.skilltree_backend ul {
+  align-items: end;
+  justify-content: end;
+}
+.skilltree_backend h2 {
+  text-align: end;
+}
+.skilltree_frontend div,
+.skilltree_backend div,
+.skilltree_frontend h2,
+.skilltree_backend h2 {
+  padding: 1rem 2rem 0rem 2rem;
+  width: 100%;
+}
+.html-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #E44D26;
+}
+
+.css-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #264DE4;
+}
+
+.javascript-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #F0DB4F;
+}
+
+.react-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #61DBFB;
+}
+
+.angular-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #B52E31;
+}
+
+.vuejs-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #34495E;
+}
+
+.bootstrap-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #080135;
+}
+
+.jquery-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #007ACC; /* Honolulu Blau */
+}
+
+.git-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #F1502F;
+}
+
+.nodejs-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: var(--color-text);
+}
+
+.svg-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #000000; /* Sie können die Farbe nach Bedarf ändern */
+}
+
+.java-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #007396; /* Blau */
+}
+
+.php-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #777BB4; /* Blau */
+}
+
+.python-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #3776AB;
+}
+
+.mysql-skilltreeIcon {
+  font-size:large;
+  color: #4479A1; /* Blau */
+}
+
+.django-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color:var(--color-text);
+}
+
+.symfony-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #000000; /* Schwarz */
+}
+
+.spring-boot-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #6DB33F; /* Grün */
+}
+
+.docker-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #0DB7ED;
+}
+
+.aws-skilltreeIcon {
+  font-size:large;
+  margin:0px 5px 0px 5px;
+  color: #FF9900;
+}
+.path{
+  stroke:var(--color-text)
+}
+.blue-skilltreeIcon{
+  color: mediumaquamarine;
+  font-size: large;
+  margin: 0px 3px 0px 5px;
+}
+.skilltree_frontend {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 60%;
+
+  margin-left: 40%;
+  margin-bottom: 150px;
+}
+.skilltree_backend {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 60%;
+}
+.skilltree_frontend .svgCircel,.skilltree_backend .svgCircel{
+    position: absolute; 
+    margin-left: -10%;
+    top: 2.3em;
+    
+}
+
+.technology{
+    position: relative;
+}
+@media screen and (max-width: 800px) {
+  .skilltree ul li {
+    margin: 0.5rem;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    border: 1px solid var(--color-footer);
+    font-size: smaller;
+  }
+  .skilltree_frontend {
+    margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skilltree_frontend {
+    width: 80%;
+
+    margin-left: 20%;
+    margin-bottom: 100px;
+  }
+  .skilltree_backend {
+    width: 80%;
+  }
+}
